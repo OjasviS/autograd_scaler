@@ -1,5 +1,5 @@
 from graphviz import Digraph
-from value import Value
+from .value import Value
 
 def _trace(root):
     edges = set()

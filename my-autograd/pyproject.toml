@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autograd_scaler"
+version = "0.1.0"
+description = "A tiny educational autograd engine with neural network components."
+authors = [{ name = "Ojasvi" }]
+readme = "README.md"
+license = { text = "UNLICENSED" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "graphviz"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]

@@ -33,7 +33,7 @@ autograd_scaler/
     └── example.ipynb  # Demonstration and training example
 ```
 ---
-## 🔧 Installation
+## Installation
 
 Clone the repository and install it locally:
 
@@ -79,6 +79,7 @@ The `examples/example.ipynb` notebook demonstrates how to:
 - Observe gradients during backpropagation
 
 Open the notebook to explore the system step-by-step.
+
 
 
 

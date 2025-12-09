@@ -1,5 +1,5 @@
 import random
-from value import Value
+from .value import Value
 
 class Neuron:
     def __init__(self, inDimension):

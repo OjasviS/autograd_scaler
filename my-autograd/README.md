@@ -43,12 +43,12 @@ pip install -e .
 
 ---
 
-## 🖼 Graphviz Requirement (For Visualization)
+## Graphviz Requirement (For Visualization)
 
 The computation graph visualizer depends on **Graphviz**, which has two parts:
 
-1️⃣ **The system-level Graphviz program** (required to render images)  
-2️⃣ **The Python `graphviz` package** (used by the code to generate diagrams)
+**1. The system-level Graphviz program** (required to render images)  
+**2. The Python `graphviz` package** (used by the code to generate diagrams)
 
 ### Install the Graphviz System Package
 
@@ -70,7 +70,7 @@ Install the Python wrapper for Graphviz:
 pip install graphviz
 ```
 
-## 📘 Example Notebook
+## Example Notebook
 
 The `examples/example.ipynb` notebook demonstrates how to:
 
@@ -79,6 +79,7 @@ The `examples/example.ipynb` notebook demonstrates how to:
 - Observe gradients during backpropagation
 
 Open the notebook to explore the system step-by-step.
+
 
 
 
